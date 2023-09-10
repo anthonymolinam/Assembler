@@ -4,7 +4,6 @@ result_msg: .asciiz "Resultado: "               # Mensaje para los resultados
 newline: .asciiz "\n"                           # Salto de línea
 
 .text
-.globl main
 
 main:
     # Imprimir el mensaje de la serie de Fibonacci
